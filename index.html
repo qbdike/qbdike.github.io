@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0028)https://hacpai.com/halt.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="我的那玩意你不懂！">
+<meta name="keywords" content="浅碧个人主页,yqindick.xyz">
+<meta name="author" content="aidezy.com">
+
+<title>微笑老猫咪</title>
+
+<!--播放器-->
+<link rel="stylesheet" href="static/css/player.css">
+
+       <link href="static/css/Location.css" type="text/css" rel="stylesheet">
+	   
+   </head>
+
+    <body class="body--ready" data-pinterest-extension-installed="cr1.39.1">
+        <canvas class="canvas" width="100%" height="905"></canvas>
+    <div id="willerce">
+    <div>
+      <a href="https://yqindick.xyz/index.php/">
+        <img src="static/image/qian.jpg" id="logo" title="浅碧">
+      </a>
+      <h1>浅碧</h1>
+	   <b>少年不识愁滋味!</b>	
+    </div>	
+    <div class="menu">
+      <a class="anniu" href="https://yqindick.xyz/index.php/">首页</a>
+	  <a class="anniu" href="https://yqindick.xyz/index.php/">教程</a>
+      <a class="anniu" href="https://yqindick.xyz/index.php/">我的</a>
+	  <a class="anniu" href="https://yqindick.xyz/index.php/">关于</a>	  
+	 </div>
+  </div>
+  <span class="copyright">&copy; 2020<a href="javascript:;">浅碧</a></span>
+        <script src="static/js/Seffects.js" type="text/javascript"></script>
+<!--播放器 -->
+
+<div id="QPlayer">
+<div id="pContent">
+	<div id="player">
+		<span class="cover"></span>
+		<div class="ctrl">
+			<div class="musicTag marquee">
+				<strong>Title</strong>
+				 <span> - </span>
+				<span class="artist">Artist</span>
+			</div>
+			<div class="progress">
+				<div class="timer left">0:00</div>
+				<div class="contr">
+					<div class="rewind icon"></div>
+					<div class="playback icon"></div>
+					<div class="fastforward icon"></div>
+				</div>
+				<div class="right">
+					<div class="liebiao icon"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="ssBtn">
+	        <div class="adf"></div>
+    </div>
+</div>
+<ol id="playlist"></ol>
+</div>
+
+<script src="static/js/jquery.min.js"></script>
+<script src="static/js/jquery.marquee.min.js"></script>
+
+<script>
+	var	playlist = [
+	{title:"Emoj",artist:"Albert Dyrlund",mp3:"http://isure.stream.qqmusic.qq.com/C40000466Js93MKKIT.m4a?guid=3205551200&vkey=EB753296AC8F94E9C0205210FCA20F3CD908163280E7DE8B8230520E8FB5F23417DFFA40F65598BDA3D2EA895F02980E9BB1BA514B877C6E&uin=4181&fromtag=66",cover:"//y.gtimg.cn/music/photo_new/T002R300x300M000004XiUF64JWg47_1.jpg?max_age=2592000"},
+{title:"run free",artist:"Deep Chills",mp3:"http://isure.stream.qqmusic.qq.com/C400003JrF2w4VJR0i.m4a?guid=3205551200&vkey=D5C30202E7539B3420594595A8F53D2F5DEAEB708E7D3B5604762D70EB883949663A2B52F926948F2A307A5AFF3E8DAA907EB6071C934E92&uin=4181&fromtag=66",cover:"https://y.gtimg.cn/music/photo_new/T002R300x300M000000ymxoj3bzUFm.jpg?max_age=2592000",},
+{title:"All I Ever Wanted",artist:"DJ Monaco",mp3:"http://isure.stream.qqmusic.qq.com/C400001ZjATP2bnOKY.m4a?guid=3205551200&vkey=E92A209B378F88E08D2D0D134C44274DB0AAD5CE4AE553CB7DE57E9B33071102C96C32C21EB4734AE04D1C5CC28BF26D86370F109C991A09&uin=4181&fromtag=66",cover:"https://y.gtimg.cn/music/photo_new/T002R300x300M000001ljQ2x3v2EJe.jpg?max_age=2592000",},
+{title:"Move Up(Lost Gravity)",artist:"Mr. Polska",mp3:"http://isure.stream.qqmusic.qq.com/C400002vC6L736sLFR.m4a?guid=3205551200&vkey=0A48BFB096F56B52EC55D109B93AEE96E6AA907ACE87C443D24884C4D48FC548889178E0E5F153A4725A4DE28236EE4262CB8CAC8758EA60&uin=4181&fromtag=66",cover:"https://y.gtimg.cn/music/photo_new/T002R300x300M000001zem4N1VdJx2.jpg?max_age=2592000",},
+{title:"End of Time",artist:"k-391 || Alan Walker",mp3:"http://isure.stream.qqmusic.qq.com/C400002ydcMm3NvMg0.m4a?guid=9633392176&vkey=2440554798344A0CAE857ACFFFDB0B05F5EBBD8E6B92BA76F14870F94B6DEEF2035DEAE18451BA19E34B468651FCAA0D9CB90FF97D9E2C2D&uin=7205&fromtag=66",cover:"https://y.gtimg.cn/music/photo_new/T002R300x300M000002qs8VK2GVsH8.jpg?max_age=2592000",},
+];
+  var isRotate = true;
+  var autoplay = true;
+</script>
+<script src="static/js/player.js"></script>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+
+function bgChange(){
+	var lis= $('.lib');
+	for(var i=0; i<lis.length; i+=2)
+	lis[i].style.background = 'rgba(246, 246, 246, 0.5)';
+}
+window.onload = bgChange;
+</script>
+
+
+</body><div></div></html>
